@@ -3,7 +3,7 @@
 
 ## [Live Site](https://clone-ff7af.web.app)
 
-![ss](eg1/Amazon-Prime-Banner.jpg)
+![ss](public/Live-Site-Screenshot.png)
 
 ## Introduction
 
