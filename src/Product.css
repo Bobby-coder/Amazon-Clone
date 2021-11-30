@@ -1,0 +1,35 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.product__info{
+    margin-bottom: 15px;
+}
+
+.product__rating{
+    display: flex;
+}
+
+.product__image{
+    margin-bottom: 15px;
+    max-height: 200px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.product > button{
+    background-color: #ff9900;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+

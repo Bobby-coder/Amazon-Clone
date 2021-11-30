@@ -1,0 +1,45 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__logo{
+    width: 200px;
+    margin: 40px 0;
+}
+
+.login__details{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: darkgray;
+    border-radius: 3px;
+}
+
+.login__title{
+    margin-bottom: 20px;
+}
+
+.login__details > form > input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.signInButton{
+    background-color: #ff9900;
+    border: none;
+    padding: 3px;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.signUpButton{
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+}
