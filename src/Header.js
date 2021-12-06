@@ -39,10 +39,12 @@ const Header = () => {
                         <span className='option__lineOne'>Returns</span>
                         <span className='option__lineTwo'>& Orders</span>
                     </div>
-                    <div className='header__option'>
-                        <span className='option__lineOne'>Your</span>
-                        <span className='option__lineTwo'>Prime</span>
-                    </div>
+                    <a href='https://www.primevideo.com/'>
+                        <div className='header__option'>
+                            <span className='option__lineOne'>Your</span>
+                            <span className='option__lineTwo'>Prime</span>
+                        </div>
+                    </a>
                     <Link to='/checkout'>
                         <div className='header__optionBasket'>
                             <ShoppingCartIcon />
@@ -51,11 +53,11 @@ const Header = () => {
                     </Link>
                 </div>
             </div >
-            
+
             <div className='header__searchMobile'>
-                    <input type='text' className='header__searchBoxMobile' />
-                    <span className='header__searchLogoMobile'> <SearchIcon /> </span>
-                </div>
+                <input type='text' className='header__searchBoxMobile' />
+                <span className='header__searchLogoMobile'> <SearchIcon /> </span>
+            </div>
         </>
     )
 }
