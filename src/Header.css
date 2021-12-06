@@ -64,3 +64,60 @@
 .basketCount{
     margin: 0 10px;
 }
+
+.header__searchMobile{
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    
+    .header{
+        width: 100%;  
+        height: 50px;   
+        justify-content: space-between;
+    }
+
+    .header__logo{
+        width: 70px;
+    }
+
+    .header__search{
+        display: none;
+    }
+
+    .header__option{
+        margin-top: 2px;
+    }
+
+    .option__lineOne{
+        font-size: 9px;
+    }
+    
+    .option__lineTwo{
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .header__searchMobile{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        background-color: #131921;
+    }
+    
+    .header__searchBoxMobile{
+        height: 27px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .header__searchLogoMobile{
+        height: 27px;
+        background-color: #cd9042;
+        padding: 3px;
+        border-radius: 2px;
+        margin-right: 10px;
+    }
+}

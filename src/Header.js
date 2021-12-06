@@ -50,7 +50,12 @@ const Header = () => {
                         </div>
                     </Link>
                 </div>
-            </div>
+            </div >
+            
+            <div className='header__searchMobile'>
+                    <input type='text' className='header__searchBoxMobile' />
+                    <span className='header__searchLogoMobile'> <SearchIcon /> </span>
+                </div>
         </>
     )
 }

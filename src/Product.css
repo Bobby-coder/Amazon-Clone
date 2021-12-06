@@ -33,3 +33,21 @@
     border: none;
 }
 
+@media screen and (max-width: 480px){
+    .product{
+       margin: 0;
+    }
+
+    .product__info{
+        font-size: 12px;
+    }
+
+    .product__image{
+        height: 100px;
+    }
+
+    .product > button{
+        font-size: 10px;
+        padding: 8px;
+    }
+}
