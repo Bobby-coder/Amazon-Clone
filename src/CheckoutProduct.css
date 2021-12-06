@@ -28,3 +28,35 @@
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
     margin-top: 10px;
 }
+
+@media screen and (max-width: 520px){
+    .checkoutProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .checkoutProduct__img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .checkoutProduct__info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .checkouProduct__title{
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .checkoutProduct__info > button {
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}

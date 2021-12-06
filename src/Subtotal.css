@@ -28,3 +28,17 @@
     margin-top: 10px;
     border-radius: 3px;
 }
+
+@media screen and (max-width: 520px){
+    .subtotal{
+        height: 125px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .subtotal > button{
+        padding: 5px;
+        margin-top: 0;
+    }
+}

@@ -25,3 +25,22 @@
     padding: 10px 0;
 }
 
+@media screen and (max-width: 520px){
+
+    .checkout{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: max-content;
+        
+    }
+    
+    .checkout__info{
+        font-size: 20px;
+        margin: 0 20px;
+    }
+    
+    .checkout__ad{
+        display: none;
+    }
+}
