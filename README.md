@@ -3,7 +3,7 @@
 
 ## [Live Site](https://clone-ff7af.web.app)
 
-![Live-Site-Screenshot](public/Live-Site-Screenshot.png)
+![Live-Site-Screenshot](public/LiveSiteScreenshot.png)
 
 ## Introduction
 
