@@ -13,7 +13,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 520px){
     .home__banner{
         margin-bottom: -80px;
     }
@@ -38,3 +38,4 @@
         padding: 10px;
     }
 }
+
