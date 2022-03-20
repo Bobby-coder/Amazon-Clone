@@ -11,7 +11,7 @@ This is a code repository for the Amazon Clone.
 
 ## Usage
 
-To run the application locally; clone the repo, install dependencies and run the app.
+To run the application locally, clone the repo, install dependencies and run the app.
 
 ```
 $ git clone https://github.com/Bobby-coder/Amazon-Clone.git
