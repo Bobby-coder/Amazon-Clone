@@ -15,7 +15,7 @@ To run the application locally, clone the repo, install dependencies and run the
 
 ```
 $ git clone https://github.com/Bobby-coder/Amazon-Clone.git
-$ cd amazon-clone
+$ cd Amazon-Clone
 $ npm start
 ```
 
